@@ -1,0 +1,151 @@
+1556855861022	geckodriver	INFO	Listening on 127.0.0.1:54721
+1556855864197	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.wLwOTmIfgj9N
+1556855864208	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1556855864222	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54729
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1556855864855	Marionette	INFO	Listening on port 54729
+1556855865246	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript warning: http://10.168.95.33:6569/Scripts/jquery-1.10.2.min.js, line 18: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://10.168.95.33:6569/Scripts/jquery-1.10.2.min.js, line 18: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://10.168.95.33:6569/Scripts/language/literal.js, line 10: unreachable code after return statement
+JavaScript warning: http://10.168.95.33:6569/Scripts/jquery-1.10.2.min.js, line 18: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://10.168.95.33:6569/Scripts/language/literal.js, line 10: unreachable code after return statement
+JavaScript warning: http://10.168.95.33:6569/Scripts/language/literal.js, line 10: unreachable code after return statement
+JavaScript warning: http://10.168.95.33:6569/Scripts/jquery-1.10.2.min.js, line 18: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://10.168.95.33:6569/Scripts/language/literal.js, line 10: unreachable code after return statement
+JavaScript warning: http://10.168.95.33:6569/Scripts/jquery-1.10.2.min.js, line 18: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://10.168.95.33:6569/Scripts/language/literal.js, line 10: unreachable code after return statement
+JavaScript warning: http://10.168.95.33:6569/Scripts/CreateOrder.js, line 903: unreachable code after return statement
+JavaScript warning: http://10.168.95.33:6569/Scripts/CreateOrder.js, line 974: unreachable code after return statement
+JavaScript warning: http://10.168.95.33:6569/Order/CreateOrder, line 767: unreachable code after return statement
+JavaScript warning: http://10.168.95.33:6569/Scripts/CreateOrder.js, line 974: unreachable code after return statement
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+console.error: 
+  Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js :: PageStyleActor<.getAppliedProps :: line 683"  data: no]
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+console.error: 
+  unknownError
+console.error: 
+  unknownError
+console.error: 
+  Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js :: PageStyleActor<.getAppliedProps :: line 683"  data: no]
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+console.error: 
+  unknownError
+console.error: 
+  unknownError
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+console.error: 
+  Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js :: PageStyleActor<.getAppliedProps :: line 683"  data: no]
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+console.error: 
+  unknownError
+console.error: 
+  unknownError
+console.error: 
+  Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js :: PageStyleActor<.getAppliedProps :: line 683"  data: no]
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+console.error: 
+  unknownError
+console.error: 
+  unknownError
+console.error: 
+  Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js :: PageStyleActor<.getAppliedProps :: line 683"  data: no]
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:683:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:451:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1042:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1743:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+console.error: 
+  unknownError
+console.error: 
+  unknownError
+[Child 29680] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 29680]
