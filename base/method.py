@@ -8,6 +8,16 @@ from utils.operationMysql import database
 from utils.excel_data import *
 import hashlib
 from suds.client import Client
+import time,random
+def now():
+    return time.strftime("%Y-%m-%d %H:%M:%S")
+def ymd():
+    return time.strftime("%Y%m%d")
+def time_str():
+    return time.strftime("%Y%m%d%H%M%S")
+def rand100_999():
+    return str(random.randint(100, 999))
+
 class Method:
 
     def __init__(self):
@@ -20,6 +30,7 @@ class Method:
             "Content-Type": "application/json;charset=UTF-8",
             "Content-Length": "228",
         }
+
     def request_wcf(self, url,data):
         # headers = {'Content-Type': 'application/soap+xml; charset="UTF-8"'}
         url_main,url,interface = url.split(",")
@@ -66,7 +77,7 @@ class Method:
             return r
         except Exception as e:
             raise RuntimeError('接口请求发生未知的错误')
-    def post_new(self,url,data,header =getHeadersValue() ):
+    def post_new(self,url,data,header =getHeadersValue("json") ):
         # url = Config().get(self.URL)
         try:
             r = requests.post(

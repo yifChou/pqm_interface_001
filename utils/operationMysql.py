@@ -91,8 +91,9 @@ class database:
 
 if __name__ == '__main__':
     db = database()
-    sql = "SELECT * FROM add_forecastconfigurations where  ChannelCode = 'PPLPrivate';"
-    sql2 = "SELECT status FROM ots_account_info WHERE  status='D';"
+    for i in range(1000):
+        sql = "SELECT * FROM add_forecastconfigurations where  ChannelCode = 'PPLPrivate';"
+        sql2 = "SELECT status FROM ots_account_info WHERE  status='D';"
     #result = db.fetch_all(sql2)
     #rs = db.update('delete from ots_customer_info where customer_code="AUTO";')
     RS2 = db.update(sql2)

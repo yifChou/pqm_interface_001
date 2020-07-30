@@ -68,12 +68,17 @@ class OperationExcel:
     def getsql(self, row):
         '''获取要执行的sql语句'''
         return self.get_row_cel(row, getsql())
+    def getWaitTime(self, row):
+        '''获取要执行的sql语句前等待时间'''
+        return self.get_row_cel(row, getWaitTime())
     def getDefaultHeaders(self):
-        return getHeadersValue()
-
+        '''获取请求头'''
+        return getHeadersValue("json")
     def getSheetName(self):
+        '''获取sheet名称'''
         return self.getExcel().name
     def getSheetIndex(self):
+        '''获取sheet的index'''
         return self.getExcel().number
 class OperationExcel_two:
     '''获取excel文件中的内容'''
@@ -135,7 +140,7 @@ class OperationExcel_two:
         '''获取要执行的sql语句'''
         return self.get_row_cel(row, getsql())
     def getDefaultHeaders(self):
-        return getHeadersValue()
+        return getHeadersValue("json")
 def check_json(a):
     if a!="":
         print(a)

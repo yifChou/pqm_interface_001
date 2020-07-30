@@ -11,9 +11,8 @@ headers : {'Content-Type': 'application/json' }
 
 
 #配置数据库
-fmshostname: fms_db
 dbotsname: ots_db
-dbotshost: 10.168.92.186
+dbotshost: IT-100
 dbotsport: 3308
 dbotsuser: mysql
 dbotspassword: a135246A
