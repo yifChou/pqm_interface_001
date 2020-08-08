@@ -22,7 +22,7 @@ cx-Freeze==6.0
 cycler==0.10.0
 ddt==1.2.1
 diff-match-patch==20181111
-Django==2.0.2
+Django==2.2.13
 django-cors-headers==2.1.0
 django-crispy-forms==1.7.2
 django-formtools==2.1
