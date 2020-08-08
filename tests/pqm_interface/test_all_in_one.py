@@ -16,7 +16,7 @@ class test_AllInOne(unittest.TestCase):
         self.start = time.time()
     argsall = []
     # for i in range(0, 64):
-    for i in range(177,178):
+    for i in range(217,218):
        argsall.append(i)
     @data(*argsall)
     def test_AllInOne_001(self,args):
