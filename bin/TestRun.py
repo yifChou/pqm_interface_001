@@ -1,9 +1,8 @@
 #coding=utf-8
 
-import  unittest
-import  HTMLTestRunner
-import  HTMLTestReportYIF
-import  time
+import unittest
+import HTMLTestReportYIF
+import time
 from utils.config import *
 import os
 import shutil
@@ -43,12 +42,12 @@ def runInterface():
         title='自动化测试报告',
         description='自动化测试报告详细信息').run((allInterfaceTests()))
 
-def runUi():
-    fp = os.path.join(REPORT_PATH,getNowTime()+'testReport.html')
-    HTMLTestRunner.HTMLTestRunner(
-        stream=open(fp,'wb'),
-        title='自动化测试报告',
-        description='自动化测试报告详细信息').run((allUiTests()))
+# def runUi():
+#     fp = os.path.join(REPORT_PATH,getNowTime()+'testReport.html')
+#     HTMLTestRunner.HTMLTestRunner(
+#         stream=open(fp,'wb'),
+#         title='自动化测试报告',
+#         description='自动化测试报告详细信息').run((allUiTests()))
 def move_report():
     files=os.listdir(REPORT_JENKINS_PATH)
     #print(files)
