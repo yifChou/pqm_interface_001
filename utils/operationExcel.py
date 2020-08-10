@@ -17,7 +17,7 @@ def rand100_999():
 class OperationExcel:
     '''获取excel文件中的内容'''
     def getExcel(self):
-        db = xlrd.open_workbook(DATA_PATH+'\data.xls')
+        db = xlrd.open_workbook(EXCEL_PATH)
         sheet = db.sheet_by_index(2)
         return sheet
 

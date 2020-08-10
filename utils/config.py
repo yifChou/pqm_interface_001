@@ -25,7 +25,7 @@ REPORT_PATH = os.path.join(BASE_PATH, 'report')
 REPORT_JENKINS_PATH = os.path.join(BASE_PATH, 'jenkins_report')
 TESTS_PATH = os.path.join(BASE_PATH,'tests')
 TESTCAST_PATH = os.path.join(BASE_PATH,"tests")
-
+EXCEL_PATH = os.path.join(DATA_PATH,"data.xls")
 
 class Config:
     def __init__(self, config=CONFIG_FILE):
