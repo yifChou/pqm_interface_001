@@ -10,7 +10,7 @@ import shutil
 def allInterfaceTests():
     print("路径信息：",os.path.join("./", 'tests', 'pqm_interface'))
     suite =unittest.TestLoader().discover(
-        start_dir=os.path.join("../", 'tests', 'pqm_interface'),
+        start_dir=os.path.join(os.getcwd(),'..','tests', 'pqm_interface'),
         pattern='test_all*.py',
         top_level_dir=None
     )
