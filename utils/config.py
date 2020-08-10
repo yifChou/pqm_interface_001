@@ -24,6 +24,7 @@ LOG_PATH = os.path.join(BASE_PATH, 'log')
 REPORT_PATH = os.path.join(BASE_PATH, 'report')
 REPORT_JENKINS_PATH = os.path.join(BASE_PATH, 'jenkins_report')
 TESTS_PATH = os.path.join(BASE_PATH,'tests')
+TESTCAST_PATH = os.path.join(BASE_PATH,"tests")
 
 
 class Config:
@@ -56,3 +57,5 @@ class Config:
 
         # 通过get_sheet()获取的sheet有write()方法
         ws = wb.get_sheet(sheetnum)
+if __name__=="__main__":
+    print(os.path.split(os.path.dirname(os.path.abspath(__file__))))
